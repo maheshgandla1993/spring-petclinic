@@ -1,5 +1,5 @@
 
-node {
+node ('master'){
 
    stage('Clone Repository') {
         // Get some code from a GitHub repository
